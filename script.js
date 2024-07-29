@@ -1,6 +1,6 @@
 // Example users array (replace with your actual data)
 const users = [
-    { username: 'BALLESER', password: 'RAFAEL', name: 'BALLESER, RAFAEL C.', page: 'linkkkkk' },
+    { username: 'Rafael', password: '03051998', name: 'BALLESER, RAFAEL C.', page: 'https://birtuldo.github.io/students-progress/rafaeL.html' },
     { username: 'student2', password: 'password2', name: 'Another Student', page: 'progress_student2.html' }
 ];
 
