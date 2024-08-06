@@ -9,6 +9,26 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f4f4f4;
+            background-image: url('school-building.jpg'); /* Replace with your school's building image URL */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.897);
+            padding: 20px;
+            border-radius: 10px;
+            margin: auto;
+            max-width: 900px;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 150px; /* Adjust size as needed */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
         }
         table {
             width: 100%;
@@ -21,23 +41,21 @@
             text-align: left;
         }
         th {
-            background-color: #4CAF50;
+            background-color: #4c9baf;
             color: white;
         }
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
     </style>
 </head>
 <body>
 
-    <h1>Student Progress Tracker</h1>
-    <table>
-        <thead>
+    <div class="content">
+        <img src="school-logo.png" alt="School Logo" class="logo"> <!-- Replace with your school's logo URL -->
+        <h1>Student Progress Tracker (Mathematics 9)</h1>
+        <table>
+            <thead>
             <tr>
                 <th>SUMEGA, FELROYCE ALEXUS S.</th>
                 <th>Topics</th>
